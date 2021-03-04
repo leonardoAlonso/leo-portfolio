@@ -1,6 +1,5 @@
-import leo from '../../images/LEO.jpg'
-import './navicon.scss'
-
+import leo from '../../images/logo.png'
+import '../../sass/navicon.scss'
 import React from 'react'
 import { BurguerMenu } from '../BurguerMenu/BurguerMenu'
 
