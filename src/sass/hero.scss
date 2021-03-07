@@ -1,0 +1,20 @@
+@import './variables.scss';
+
+.avatar{
+    margin: 2rem 0;
+    width: 150px;
+
+    @media (min-width: $breakpoint-tablet) {
+        width: 210px;
+    }
+}
+
+.hero-foot{
+    img.is-bottom{
+        margin-bottom: -0.4rem;
+        @media (min-width: $breakpoint-tablet) {
+            margin-bottom: -0.45rem;
+            max-width: 760px;
+        }
+    }
+}

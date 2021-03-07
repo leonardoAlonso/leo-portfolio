@@ -1,10 +1,14 @@
 import './sass/main.scss'
 
 import { HeaderComponent } from './components/Header/Header'
+import { Hero } from './components/Hero/Hero'
 
 function App() {
   return (
-    <HeaderComponent/>
+    <main>
+      <HeaderComponent/>
+      <Hero/>
+    </main>
   );
 }
 
