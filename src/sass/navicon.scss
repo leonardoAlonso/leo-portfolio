@@ -1,8 +1,17 @@
+@import "./variables.scss";
+
 .navbar-brand{
     a.navbar-item{
         img{
             max-height: 5rem;
             width: 5rem
         }
+    }
+}
+
+.navbar{
+    .navbar-menu{
+        box-shadow: 0 0 0 0;
+        text-align: center;
     }
 }
