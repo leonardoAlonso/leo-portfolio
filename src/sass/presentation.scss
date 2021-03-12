@@ -6,3 +6,13 @@
         color: $wite;
     }
 }
+
+.section.is-long{
+    padding-bottom: 14rem;
+    @media (min-width: $breakpoint-descktop) {
+        padding-bottom: 18rem;
+    }
+    @media (min-width: $breakpoint-tablet) {
+        padding-bottom: 16rem;
+    }
+}
