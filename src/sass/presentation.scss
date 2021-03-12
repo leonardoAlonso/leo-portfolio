@@ -1,0 +1,8 @@
+@import './variables.scss';
+
+.section.is-primary {
+    background-color: $guinda;
+    .title, .subtitle{
+        color: $wite;
+    }
+}
