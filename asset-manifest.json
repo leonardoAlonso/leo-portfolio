@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/leonardoAlonso/leo-portfolio/static/css/main.7d732dad.chunk.css",
+    "main.js": "/leonardoAlonso/leo-portfolio/static/js/main.f8ac5ccb.chunk.js",
+    "main.js.map": "/leonardoAlonso/leo-portfolio/static/js/main.f8ac5ccb.chunk.js.map",
+    "runtime-main.js": "/leonardoAlonso/leo-portfolio/static/js/runtime-main.5ab6a4c0.js",
+    "runtime-main.js.map": "/leonardoAlonso/leo-portfolio/static/js/runtime-main.5ab6a4c0.js.map",
+    "static/js/2.ecd85c48.chunk.js": "/leonardoAlonso/leo-portfolio/static/js/2.ecd85c48.chunk.js",
+    "static/js/2.ecd85c48.chunk.js.map": "/leonardoAlonso/leo-portfolio/static/js/2.ecd85c48.chunk.js.map",
+    "index.html": "/leonardoAlonso/leo-portfolio/index.html",
+    "static/css/main.7d732dad.chunk.css.map": "/leonardoAlonso/leo-portfolio/static/css/main.7d732dad.chunk.css.map",
+    "static/js/2.ecd85c48.chunk.js.LICENSE.txt": "/leonardoAlonso/leo-portfolio/static/js/2.ecd85c48.chunk.js.LICENSE.txt",
+    "static/media/LEO.f1b2e755.jpg": "/leonardoAlonso/leo-portfolio/static/media/LEO.f1b2e755.jpg",
+    "static/media/logo.41fdadb9.png": "/leonardoAlonso/leo-portfolio/static/media/logo.41fdadb9.png",
+    "static/media/logowhite.06e39101.png": "/leonardoAlonso/leo-portfolio/static/media/logowhite.06e39101.png",
+    "static/media/programming.4fb81068.svg": "/leonardoAlonso/leo-portfolio/static/media/programming.4fb81068.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ab6a4c0.js",
+    "static/js/2.ecd85c48.chunk.js",
+    "static/css/main.7d732dad.chunk.css",
+    "static/js/main.f8ac5ccb.chunk.js"
+  ]
+}
