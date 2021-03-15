@@ -4,6 +4,7 @@ import { HeaderComponent } from './components/Header/Header'
 import { Hero } from './components/Hero/Hero'
 import { Presentation } from './components/Presentation/Presentation'
 import { Skills } from './components/Skills/Skills'
+import { Experience } from './components/Experience/Experience'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <Presentation/>
       <Skills/>
+      <Experience/>
     </main>
   );
 }
