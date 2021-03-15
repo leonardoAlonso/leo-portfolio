@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/leo-portfolio/static/css/main.7d732dad.chunk.css",
-    "main.js": "/leo-portfolio/static/js/main.f8ac5ccb.chunk.js",
-    "main.js.map": "/leo-portfolio/static/js/main.f8ac5ccb.chunk.js.map",
+    "main.js": "/leo-portfolio/static/js/main.e33bf2ca.chunk.js",
+    "main.js.map": "/leo-portfolio/static/js/main.e33bf2ca.chunk.js.map",
     "runtime-main.js": "/leo-portfolio/static/js/runtime-main.e57f5849.js",
     "runtime-main.js.map": "/leo-portfolio/static/js/runtime-main.e57f5849.js.map",
-    "static/js/2.ecd85c48.chunk.js": "/leo-portfolio/static/js/2.ecd85c48.chunk.js",
-    "static/js/2.ecd85c48.chunk.js.map": "/leo-portfolio/static/js/2.ecd85c48.chunk.js.map",
+    "static/js/2.17db2ef9.chunk.js": "/leo-portfolio/static/js/2.17db2ef9.chunk.js",
+    "static/js/2.17db2ef9.chunk.js.map": "/leo-portfolio/static/js/2.17db2ef9.chunk.js.map",
     "index.html": "/leo-portfolio/index.html",
     "static/css/main.7d732dad.chunk.css.map": "/leo-portfolio/static/css/main.7d732dad.chunk.css.map",
-    "static/js/2.ecd85c48.chunk.js.LICENSE.txt": "/leo-portfolio/static/js/2.ecd85c48.chunk.js.LICENSE.txt",
+    "static/js/2.17db2ef9.chunk.js.LICENSE.txt": "/leo-portfolio/static/js/2.17db2ef9.chunk.js.LICENSE.txt",
     "static/media/LEO.f1b2e755.jpg": "/leo-portfolio/static/media/LEO.f1b2e755.jpg",
     "static/media/logo.41fdadb9.png": "/leo-portfolio/static/media/logo.41fdadb9.png",
     "static/media/logowhite.06e39101.png": "/leo-portfolio/static/media/logowhite.06e39101.png",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e57f5849.js",
-    "static/js/2.ecd85c48.chunk.js",
+    "static/js/2.17db2ef9.chunk.js",
     "static/css/main.7d732dad.chunk.css",
-    "static/js/main.f8ac5ccb.chunk.js"
+    "static/js/main.e33bf2ca.chunk.js"
   ]
 }
