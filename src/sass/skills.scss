@@ -1,12 +1,28 @@
 @import './variables.scss';
 
-.section.skills{
+.section.skills {
     margin-top: -14rem;
     padding-bottom: 1rem;
-    .image{
-        svg{
+    .image {
+        svg {
             color: $guinda;
             font-size: 48px;
+        }
+    }
+}
+
+.section.skills {
+    .box {
+        .content {
+            .columns {
+                .column {
+                    ul {
+                        list-style: none;
+                        margin-left: 0;
+                        margin-right: 0;
+                    }
+                }
+            }
         }
     }
 }

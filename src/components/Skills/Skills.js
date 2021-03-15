@@ -9,8 +9,19 @@ import '../../sass/skills.scss'
 
 export const Skills = () => {
 
-    const items = {
+    const dbItems = {
+        "tools": ['DbVisualizer', 'Terminal'],
+        "tech": ['MySql', 'Postgresql']
+    }
 
+    const frontItems = {
+        "tools": ['VSCode', 'Adobe XD', 'Figma', 'Zepplin'],
+        "tech": ['HTML', 'CSS3', 'SASS', 'Bootstrap', 'Bulma', 'React']
+    }
+
+    const backItems = {
+        "tools": ['VScode', 'Terminal', 'Git'],
+        "tech": ['Python', 'Django', 'Flask', 'Odoo', 'PHP', 'Laravel', 'GitHub', ' GitLab']
     }
 
     return (
@@ -24,9 +35,19 @@ export const Skills = () => {
                                 title="Databases"
                                 description="The database is an escential element in any software system,
                                     these are some database managers that I have experience with "
-                                items={items}/>
-                            <SkillsSection icon={faLaptopCode} title="Frontend" description="" items={items}/>
-                            <SkillsSection icon={faCode} title="Backend" description="" items={items}/>
+                                items={dbItems}/>
+                            <SkillsSection
+                                icon={faLaptopCode}
+                                title="Frontend"
+                                description="The frontend is how the application is looks like for the users,
+                                    It is what the user will see."
+                                items={frontItems}/>
+                            <SkillsSection
+                                icon={faCode}
+                                title="Backend"
+                                description="The backend is the bussisnes logic, the conection with the database,
+                                    and the application security."
+                                items={backItems}/>
                         </div>
                     </div>
                 </div>
