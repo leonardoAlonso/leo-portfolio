@@ -7,10 +7,10 @@ export const SkillsSection = ({icon, title, description, items}) => {
 
     const {tools, tech} = items
     const toolItems = tools.map( tool =>
-        <span>{tool} </span>
+        <span key={tool}>{tool} </span>
     )
     const techItems = tech.map( tech =>
-        <li>{tech}</li>
+        <li key={tech}>{tech}</li>
     )
 
     return (

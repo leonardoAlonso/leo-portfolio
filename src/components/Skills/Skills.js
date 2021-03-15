@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { useTranslation } from 'react-i18next';
+
 import { SkillsSection } from '../SkillSection/SkillSection'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
@@ -24,6 +26,7 @@ export const Skills = () => {
         "tech": ['Python', 'Django', 'Flask', 'Odoo', 'PHP', 'Laravel', 'GitHub', ' GitLab']
     }
 
+    const {t} = useTranslation();
     return (
         <section className="section skills has-text-centered">
             <div className="container is-narrow">
@@ -32,21 +35,18 @@ export const Skills = () => {
                         <div className="columns is-centered">
                             <SkillsSection
                                 icon={faDatabase}
-                                title="Databases"
-                                description="The database is an escential element in any software system,
-                                    these are some database managers that I have experience with "
+                                title={t('databases')}
+                                description={t('database_info')}
                                 items={dbItems}/>
                             <SkillsSection
                                 icon={faLaptopCode}
                                 title="Frontend"
-                                description="The frontend is how the application is looks like for the users,
-                                    It is what the user will see."
+                                description={t('frontend_info')}
                                 items={frontItems}/>
                             <SkillsSection
                                 icon={faCode}
                                 title="Backend"
-                                description="The backend is the bussisnes logic, the conection with the database,
-                                    and the application security."
+                                description={t('backend_info')}
                                 items={backItems}/>
                         </div>
                     </div>

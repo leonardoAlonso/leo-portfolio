@@ -7,9 +7,13 @@ export const HeaderMenu = ({hello_message, menu_active}) => {
             id="navMenu">
             <div className="navbar-start"/>
             <div className="navbar-end">
-                <p className="navbar-item">Mentorship</p>
+                <a className="navbar-item" href="https://dev.to/leonardoalonso">Blog</a>
                 <div className="navbar-item">
-                    <button className="button is-primary is-outlined is-rounded">{hello_message}</button>
+                    <a
+                        href="mailto:leonardoalonsososa@gmail.com?Subject=Me%20gustaria%20que%20colaboremos"
+                        className="button is-primary is-outlined is-rounded">
+                            {hello_message}
+                    </a>
                 </div>
             </div>
 

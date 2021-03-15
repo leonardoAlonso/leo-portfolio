@@ -1,9 +1,14 @@
 import React from 'react'
 
+import { useTranslation } from 'react-i18next';
+
 import '../../sass/experience.scss'
 
 
 export const Experience = () => {
+
+    const {t} = useTranslation();
+
 
     const enterprices = [
         "https://www.inoma.mx/wp-content/uploads/2016/02/logo_inoma.png",
@@ -18,7 +23,7 @@ export const Experience = () => {
                 <div className="columns is-centered">
                     <div className="column is-half">
                         <h1 className="title is-size-3-desktop is-size-4-tablet is-size-5-mobile">
-                            I'm proud to have collaborated with some awesome companies:
+                            {t('experience')}
                         </h1>
                     </div>
                 </div>
@@ -26,7 +31,7 @@ export const Experience = () => {
                     <div className="columns is-multiline is-mobile">
                         {
                             enterprices.map( (enterprice) => (
-                                <div className="column is-half-mobile is-one-quarter-tablet">
+                                <div key={enterprice} className="column is-half-mobile is-one-quarter-tablet">
                                     <figure className="image is-2x1">
                                         <img className="client-logo" src={enterprice} alt=""/>
                                     </figure>
