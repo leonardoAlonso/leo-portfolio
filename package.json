@@ -9,8 +9,10 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "i18next": "^19.9.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-i18next": "^11.8.10",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
@@ -39,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "bulma": "^0.9.2",
     "node-sass": "^5.0.0"
   }

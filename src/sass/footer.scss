@@ -1,0 +1,18 @@
+@import '../sass/variables.scss';
+
+footer{
+    .social-icons{
+        a.button{
+            background-color: transparent;
+            border-radius: 100%;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: $wite;
+            margin: 0 .2rem;
+            height: 47px;
+            width: 47px;
+        }
+    }
+    img{
+        width: 10%;
+    }
+}
