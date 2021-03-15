@@ -40,9 +40,6 @@ export const Footer = () => {
                     <a className="button is-medium" href="https://github.com/leonardoAlonso">
                         <FontAwesomeIcon icon={faGithub} size="lg"/>
                     </a>
-                    <a className="button is-medium" href="https://github.com/leonardoAlonso">
-                        <FontAwesomeIcon icon={faGithub} size="lg"/>
-                    </a>
                 </p>
             </div>
         </footer>
